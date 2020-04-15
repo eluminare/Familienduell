@@ -5,5 +5,5 @@ RUN npm install
 
 EXPOSE 8080
 
-WORKDIR /app/Familienduell/server
+WORKDIR /app/server
 CMD ["node", "server.js"]
